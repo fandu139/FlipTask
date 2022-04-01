@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List screen test List screen snapshot test should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "height": 50,
+        "marginBottom": 5,
+        "marginHorizontal": 20,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "fontFamily": "SourceSansPro-Regular",
+          "fontWeight": "normal",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="button-icon"
+          accessible={true}
+          focusable={false}
+          hitSlop={
+            Object {
+              "bottom": 15,
+              "left": 15,
+              "right": 15,
+              "top": 15,
+            }
+          }
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="button-icon"
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#808080",
+                },
+                Object {
+                  "fontFamily": "ColectionIcon",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Cari nama, bank atau nominal"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 12,
+          }
+        }
+        testID="text-input-search-by-order-id-active"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "width": 40,
+            },
+            Object {
+              "width": 110,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "opacity": 1,
+            }
+          }
+          testID="button-filter-screen-active"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FF5733",
+                "fontSize": 10,
+                "paddingRight": 8,
+              }
+            }
+          >
+            URUTKAN
+          </Text>
+          <View
+            accessibilityLabel="button-icon"
+            accessible={true}
+            focusable={false}
+            hitSlop={
+              Object {
+                "bottom": 15,
+                "left": 15,
+                "right": 15,
+                "top": 15,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="button-icon"
+          >
+            <Text
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 8,
+                  },
+                  Object {
+                    "color": "#FF5733",
+                  },
+                  Object {
+                    "fontFamily": "ColectionIcon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <ActivityIndicator
+      accessibilityLabel="loading-indicator"
+      animating={true}
+      color="#EF4941"
+      hidesWhenStopped={true}
+      size="large"
+      testID="loading-indicator"
+    />
+  </View>
+  <View />
+</View>
+`;
