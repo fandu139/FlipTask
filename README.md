@@ -9,7 +9,7 @@ Tech Features:
 4. React Native Vector Icons
 
 ## Explanation UI
-You can go to this link https://github.com/fandu139/Efishier-Task/blob/main/docs/EXPLANATION.md
+You can go to this link https://github.com/fandu139/fliptask/blob/main/docs/EXPLANATION.md
 
 ## Setup Environment
 First, setup your environment by following this guide on https://reactnative.dev/docs/environment-setup
