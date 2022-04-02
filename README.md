@@ -33,9 +33,7 @@ src
 │   └── navigation
 ├── navigation
 ├── screens
-│   ├── AddData
-│   ├── components
-│   └── Filter
+│   └── Detail
 │   └── List
 ├── theme
 ├── uikit
